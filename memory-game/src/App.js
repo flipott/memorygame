@@ -10,6 +10,7 @@ function App() {
   const [cards, setCards] = useState([0,1,2,3,4,5,6,7,8,9,10,11])
   const [clickedCards, setClickedCards] = useState([]);
 
+  // Generate a new set of cards
   const generateNewCards = () => {
     const newArr = [...cards];
     for (let i = newArr.length-1; i>0; i--) {
@@ -19,12 +20,14 @@ function App() {
     setCards(newArr);
   }
 
+  // Show score
   useEffect(() => {
     setScore(prevState => ({
       current: clickedCards.length,
       best: prevState.best
     }))}, [cards])
 
+  // Perform checks when card is clicked
   const handleCardClick = (number) => {
     if (!clickedCards.includes(number)) {
       setClickedCards(prevState => [...prevState, number]);
@@ -39,9 +42,8 @@ function App() {
     }
   }
 
-
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <Scoreboard score={score}/>
       <div className="main">
