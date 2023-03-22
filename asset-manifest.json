@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/memorygame/static/css/main.74048a35.css",
+    "main.js": "/memorygame/static/js/main.0d9ea925.js",
+    "static/media/10.png": "/memorygame/static/media/10.57ef9973a6cd73a4599d.png",
+    "static/media/11.png": "/memorygame/static/media/11.f9d97bb2f3fff502c5ac.png",
+    "static/media/8.png": "/memorygame/static/media/8.6d0f083eca1f7f0381a8.png",
+    "static/media/9.png": "/memorygame/static/media/9.f43ae0f2b782fd94572c.png",
+    "static/media/2.png": "/memorygame/static/media/2.2a0b9329f76ca98c8160.png",
+    "static/media/3.png": "/memorygame/static/media/3.ed3cb89bb646ad7e744a.png",
+    "static/media/1.png": "/memorygame/static/media/1.60269f0911ad6677fae7.png",
+    "static/media/5.png": "/memorygame/static/media/5.1e5540532d6689bfbf73.png",
+    "static/media/6.png": "/memorygame/static/media/6.391e3f9aa31f05fad3b8.png",
+    "index.html": "/memorygame/index.html",
+    "main.74048a35.css.map": "/memorygame/static/css/main.74048a35.css.map",
+    "main.0d9ea925.js.map": "/memorygame/static/js/main.0d9ea925.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74048a35.css",
+    "static/js/main.0d9ea925.js"
+  ]
+}
